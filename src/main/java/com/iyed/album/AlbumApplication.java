@@ -21,6 +21,8 @@ public class AlbumApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		repositoryRestConfiguration.exposeIdsFor(Album.class,Artist.class);
+		
+		
 	}
 
 }
